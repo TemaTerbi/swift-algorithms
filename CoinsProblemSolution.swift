@@ -3,7 +3,6 @@ let coins = [1, 2, 5]
 let amount = 11
 
 func getExchange(coins: [Int], amount: Int) {
-    let timer = ParkBenchTimer()
     var array = Array.SubSequence(repeating: amount + 1, count: amount + 1)
     array[0] = 0
     
